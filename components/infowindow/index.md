@@ -6,6 +6,7 @@ title: InfoWindow
 
 信息窗体。
 `InfoWindow`提供了`Content`以及`Title`两个子组件，来方便我们进行窗体的内容以及标题设置，`Content`与`Title`的内容可为字符串或任何`HTML`标签。
+**若要在`Content`与`Title`中的`HTML`元素绑定点击事件，请使用`onMouseUp`代替`onClick`。因为百度地图`InfoWindow`面板区域已经阻止了部分点击相关的事件传递，由于`React`的事件最终委托给`document`，导致事件最终无法触发。**
 
 **注意：在一个地图上最多只能同时显示一个信息窗体**
 

@@ -50,6 +50,7 @@
     "uglify-js": "^2.8.12",
     "url-loader": "^0.5.7",
     "webpack": "^3.4.1",
-    "webpack-dev-server": "^2.6.1"
+    "webpack-dev-server": "^2.6.1",
+    "rc-bmap": "^1.0.2"
   }
 }
